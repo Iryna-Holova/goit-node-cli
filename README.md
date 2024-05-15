@@ -14,12 +14,12 @@ npm install
 
 The application supports the following commands:
 
-- `node index.js -a list`: Lists all contacts.
-- `node index.js -a get -i <contactId>`: Gets a contact by ID.
-- `node index.js -a add -n <name> -e <email> -p <phone>`: Adds a new contact.
-- `node index.js -a remove -i <contactId>`: Removes a contact by ID.
+- `-a list`: Lists all contacts.
+- `-a get -i <contactId>`: Gets a contact by ID.
+- `-a add -n <name> -e <email> -p <phone>`: Adds a new contact.
+- `-a remove -i <contactId>`: Removes a contact by ID.
 
-To execute a command, run node `index.js` followed by the desired action and any additional options.
+To execute a command, run `node index.js` followed by the desired action and any additional options.
 
 ## Examples:
 
